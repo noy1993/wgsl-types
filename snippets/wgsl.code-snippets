@@ -1,0 +1,29 @@
+{
+    "struct": {
+        "prefix": "struct",
+        "body": [
+            "struct $MyStruct {",
+            "    $0",
+            "};"
+        ],
+        "description": "constom your struct"
+    },
+    "vertex_main": {
+        "prefix": "vs",
+        "body": [
+            "@vertex",
+            "fn vs_main($1) -> $2{",
+            "    $0",
+            "}"
+        ]
+    },
+    "fragment_main": {
+        "prefix": "fs",
+        "body": [
+            "@fragment",
+            "fn fs_main($1) -> $2{",
+            "    $0",
+            "}"
+        ]
+    },
+}

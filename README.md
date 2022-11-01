@@ -1,3 +1,5 @@
-# wgsl-types README
+# wgsl-types
 
-Automatic completion of language types
+Automatic completion of wgsl language types
+
+对 wgsl-analyzer 类型补全的扩展。
